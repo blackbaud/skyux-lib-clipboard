@@ -1,14 +1,14 @@
 {
-  "name": "stache-clipboard",
+  "name": "skyux-lib-clipboard",
   "mode": "easy",
   "compileMode": "aot",
   "appSettings": {
     "myLibrary": {
-      "name": "Stache Clipboard"
+      "name": "Skyux Lib Clipboard"
     }
   },
   "app": {
-    "title": "Stache Clipboard"
+    "title": "Skyux Lib Clipboard"
   },
   "testSettings": {
     "unit": {

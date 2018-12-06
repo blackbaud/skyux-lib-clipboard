@@ -17,16 +17,20 @@
   "author": "Blackbaud",
   "license": "ISC",
   "peerDependencies": {
-    "@blackbaud/skyux": "^2.31.0"
+    "@skyux/theme": "^3.3.1",
+    "@skyux/i18n": "^3.5.0",
+    "@blackbaud/skyux": "2.30.0",
+    "@blackbaud/skyux-builder": "^1.30.0"
   },
   "dependencies": {
-    "@skyux/theme": "^3.3.1",
-    "clipboard-polyfill": "^2.7.0"
+    "clipboard-polyfill": "2.7.0"
   },
   "devDependencies": {
-    "@blackbaud/skyux-builder": "1.30.0",
+    "@blackbaud/skyux": "2.30.0",
     "@blackbaud/skyux-lib-testing": "1.0.0",
-    "@blackbaud/skyux": "2.31.0"
+    "@skyux/theme": "3.3.1",
+    "@blackbaud/skyux-builder": "1.30.0",
+    "@skyux/i18n": "3.5.0"
   },
   "repository": {
     "type": "git",

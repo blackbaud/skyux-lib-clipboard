@@ -21,8 +21,7 @@
   },
   "dependencies": {
     "@skyux/theme": "^3.3.1",
-    "clipboard-polyfill": "^2.7.0",
-    "mock-require": "^3.0.2"
+    "clipboard-polyfill": "^2.7.0"
   },
   "devDependencies": {
     "@blackbaud/skyux-builder": "1.30.0",

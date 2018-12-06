@@ -8,7 +8,12 @@
     }
   },
   "app": {
-    "title": "Skyux Lib Clipboard"
+    "title": "Skyux Lib Clipboard",
+    "app": {
+      "styles": [
+        "node_modules/@skyux/theme/css/sky.css"
+      ]
+    }
   },
   "testSettings": {
     "unit": {

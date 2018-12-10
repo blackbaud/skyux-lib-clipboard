@@ -1,7 +1,7 @@
 {
-  "name": "@blackbaud/stache-lib-clipboard",
+  "name": "@blackbaud/skyux-lib-clipboard",
   "version": "1.0.0",
-  "description": "Single-page-application for skyux-lib-stache-lib-clipboard",
+  "description": "Single-page-application for skyux-lib-clipboard",
   "main": "bundles/bundle.umd.js",
   "module": "index.ts",
   "engines": {
@@ -17,16 +17,18 @@
   "author": "Blackbaud",
   "license": "ISC",
   "peerDependencies": {
-    "@blackbaud/skyux": "^2.31.0"
+    "@blackbaud/skyux": "^2.30.0"
   },
-  "dependencies": {},
+  "dependencies": {
+    "clipboard-polyfill": "2.7.0"
+  },
   "devDependencies": {
+    "@blackbaud/skyux": "2.30.0",
     "@blackbaud/skyux-builder": "1.30.0",
-    "@blackbaud/skyux-lib-testing": "1.0.0",
-    "@blackbaud/skyux": "2.31.0"
+    "@blackbaud/skyux-lib-testing": "1.0.0"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/blackbaud/stache-lib-clipboard.git"
+    "url": "https://github.com/blackbaud/skyux-lib-clipboard.git"
   }
 }

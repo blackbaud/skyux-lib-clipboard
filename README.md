@@ -1,7 +1,7 @@
-# Stache Copy to Clipboard
+# Sky Copy to Clipboard
 
-[![npm](https://img.shields.io/npm/v/@blackbaud/stache-clipboard.svg)](https://www.npmjs.com/package/@blackbaud/stache-clipboard)
-[![status](https://travis-ci.org/blackbaud/stache-clipboard.svg?branch=master)](https://travis-ci.org/blackbaud/stache-clipboard)
+[![npm](https://img.shields.io/npm/v/@blackbaud/skyux-lib-clipboard.svg)](https://www.npmjs.com/package/@blackbaud/skyux-lib-clipboard)
+[![status](https://travis-ci.org/blackbaud/skyux-lib-clipboard.svg?branch=master)](https://travis-ci.org/blackbaud/skyux-lib-clipboard)
 
 The copy to clipboard component creates a button on your page that enables users to copy the content to their computer's clipboard. Read the [official documentation](https://docs.blackbaud.com/stache/content/clipboard) for more info.
 

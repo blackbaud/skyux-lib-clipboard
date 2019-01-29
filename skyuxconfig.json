@@ -2,16 +2,19 @@
   "name": "skyux-lib-clipboard",
   "mode": "easy",
   "compileMode": "aot",
+  "skyuxModules": [
+    "SkyErrorModule"
+  ],
+  "plugins": [
+    "@skyux-sdk/builder-plugin-skyux"
+  ],
   "appSettings": {
     "myLibrary": {
       "name": "Skyux Lib Clipboard"
     }
   },
   "app": {
-    "title": "Skyux Lib Clipboard",
-    "styles": [
-      "node_modules/@skyux/theme/css/sky.css"
-    ]
+    "title": "Skyux Lib Clipboard"
   },
   "testSettings": {
     "unit": {

@@ -6,8 +6,13 @@ import {
   SkyClipboardModule
 } from './public';
 
+import {
+  AppSkyModule
+} from './app-sky.module';
+
 @NgModule({
   exports: [
+    AppSkyModule,
     SkyClipboardModule
   ]
 })

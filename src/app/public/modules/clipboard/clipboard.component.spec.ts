@@ -12,33 +12,14 @@ class MockClipboardService {
   public verifyCopyCommandBrowserSupport() {}
 }
 
-class MockSkyAppResourcesService {
-  public getString(): any {
-    return {
-      subscribe: (cb: any) => {
-        cb();
-      },
-      take: () => {
-        return {
-          subscribe: (cb: any) => {
-            cb();
-          }
-        };
-      }
-    };
-  }
-}
-
 describe('SkyCopyToClipboardComponent', () => {
   let component: SkyCopyToClipboardComponent;
   let fixture: ComponentFixture<SkyCopyToClipboardComponent>;
   let element: HTMLElement;
   let mockTestElement: any;
-  let mockSkyAppResourcesService: any;
   let mockClipboardService: any;
 
   beforeEach(() => {
-    mockSkyAppResourcesService = new MockSkyAppResourcesService();
     mockClipboardService = new MockClipboardService();
 
     TestBed.configureTestingModule({

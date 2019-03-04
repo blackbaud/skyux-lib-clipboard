@@ -1,7 +1,7 @@
 {
-  "name": "@skyux/clipboard",
-  "version": "3.0.0",
-  "description": "SKY UX Clipboard",
+  "name": "@blackbaud/skyux-lib-clipboard",
+  "version": "1.0.0",
+  "description": "Single-page-application for skyux-lib-clipboard",
   "main": "bundles/bundle.umd.js",
   "module": "index.ts",
   "scripts": {

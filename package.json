@@ -1,7 +1,7 @@
 {
-  "name": "@blackbaud/skyux-lib-clipboard",
-  "version": "1.0.0-rc.3",
-  "description": "Single-page-application for skyux-lib-clipboard",
+  "name": "@skyux/clipboard",
+  "version": "3.0.0",
+  "description": "SKY UX Clipboard",
   "main": "bundles/bundle.umd.js",
   "module": "index.ts",
   "scripts": {
@@ -14,13 +14,16 @@
   "author": "Blackbaud",
   "license": "ISC",
   "peerDependencies": {
-    "@blackbaud/skyux": "^2.30.0"
+    "@angular/common": "^4.3.6",
+    "@angular/core": "^4.3.6",
+    "@skyux/core": "^3.3.0",
+    "@skyux/i18n": "^3.5.0"
   },
   "dependencies": {
     "clipboard-polyfill": "2.7.0"
   },
   "devDependencies": {
-    "@blackbaud/skyux": "2.40.0",
+    "@blackbaud/skyux": "2.41.0",
     "@blackbaud/skyux-builder": "1.30.0",
     "@skyux-sdk/builder-plugin-skyux": "1.0.0-rc.6"
   },

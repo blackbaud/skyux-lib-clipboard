@@ -5,8 +5,7 @@
   "main": "bundles/bundle.umd.js",
   "module": "index.ts",
   "scripts": {
-    "skyux": "skyux",
-    "test": "skyux test --coverage library && skyux build && npm run build",
+    "test": "skyux test --coverage library",
     "build": "skyux build-public-library",
     "start": "skyux serve"
   },
@@ -14,18 +13,18 @@
   "author": "Blackbaud",
   "license": "ISC",
   "peerDependencies": {
-    "@angular/common": "^4.3.6",
-    "@angular/core": "^4.3.6",
+    "@angular/common": ">=4.3.6",
+    "@angular/core": ">=4.3.6",
     "@skyux/core": "^3.3.0",
     "@skyux/i18n": "^3.5.0"
   },
   "dependencies": {
-    "clipboard-polyfill": "2.7.0"
+    "clipboard-polyfill": "2.8.0"
   },
   "devDependencies": {
-    "@blackbaud/skyux": "2.41.0",
-    "@blackbaud/skyux-builder": "1.31.1",
-    "@skyux-sdk/builder-plugin-skyux": "1.0.0-rc.6"
+    "@blackbaud/skyux": "2.49.2",
+    "@blackbaud/skyux-builder": "1.35.0",
+    "@skyux-sdk/builder-plugin-skyux": "1.0.0"
   },
   "repository": {
     "type": "git",

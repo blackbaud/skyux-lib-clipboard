@@ -7,7 +7,7 @@
   "scripts": {
     "test": "skyux test --coverage library",
     "build": "skyux build-public-library",
-    "start": "skyux serve"
+    "start": "skyux serve --hmr"
   },
   "keywords": [],
   "author": "Blackbaud",

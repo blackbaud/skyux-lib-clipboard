@@ -1,32 +1,38 @@
-import { ComponentFixture, TestBed, async, tick, fakeAsync } from '@angular/core/testing';
+import {
+  ComponentFixture,
+  TestBed,
+  async,
+  tick,
+  fakeAsync
+} from '@angular/core/testing';
+
 import {
   expect
 } from '@skyux-sdk/testing';
-import { SkyCopyToClipboardComponent, SkyCopyToClipboardService } from '../clipboard';
-import { SkyAppWindowRef } from '@skyux/core';
-import { SkyI18nModule } from '@skyux/i18n';
-import { SkyClipboardResourcesModule } from '../shared';
+
+import {
+  SkyAppWindowRef
+} from '@skyux/core';
+
+import {
+  SkyI18nModule
+} from '@skyux/i18n';
+
+import {
+  SkyCopyToClipboardComponent
+} from './clipboard.component';
+
+import {
+  SkyCopyToClipboardService
+} from './clipboard.service';
+
+import {
+  SkyClipboardModule
+} from './clipboard.module';
 
 class MockClipboardService {
   public copyContent(element: HTMLElement) { }
   public verifyCopyCommandBrowserSupport() {}
-}
-
-class MockSkyAppResourcesService {
-  public getString(): any {
-    return {
-      subscribe: (cb: any) => {
-        cb();
-      },
-      take: () => {
-        return {
-          subscribe: (cb: any) => {
-            cb();
-          }
-        };
-      }
-    };
-  }
 }
 
 describe('SkyCopyToClipboardComponent', () => {
@@ -34,20 +40,15 @@ describe('SkyCopyToClipboardComponent', () => {
   let fixture: ComponentFixture<SkyCopyToClipboardComponent>;
   let element: HTMLElement;
   let mockTestElement: any;
-  let mockSkyAppResourcesService: any;
   let mockClipboardService: any;
 
   beforeEach(() => {
-    mockSkyAppResourcesService = new MockSkyAppResourcesService();
     mockClipboardService = new MockClipboardService();
 
     TestBed.configureTestingModule({
-      declarations: [
-        SkyCopyToClipboardComponent
-      ],
       imports: [
         SkyI18nModule,
-        SkyClipboardResourcesModule
+        SkyClipboardModule
       ],
       providers: [
         SkyAppWindowRef,

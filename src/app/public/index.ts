@@ -1,1 +1,1 @@
-export * from './modules/clipboard';
+export * from './modules';

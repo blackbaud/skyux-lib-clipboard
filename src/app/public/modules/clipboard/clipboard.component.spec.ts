@@ -15,10 +15,6 @@ import {
 } from '@skyux/core';
 
 import {
-  SkyI18nModule
-} from '@skyux/i18n';
-
-import {
   SkyCopyToClipboardComponent
 } from './clipboard.component';
 
@@ -47,7 +43,6 @@ describe('SkyCopyToClipboardComponent', () => {
 
     TestBed.configureTestingModule({
       imports: [
-        SkyI18nModule,
         SkyClipboardModule
       ],
       providers: [

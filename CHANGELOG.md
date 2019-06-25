@@ -1,3 +1,7 @@
+# 1.1.1 (2019-06-25)
+
+- Fixed an issue where the button text was not returning to the original message after being clicked. [#15](https://github.com/blackbaud/skyux-lib-clipboard/pull/15)
+
 # 1.1.0 (2019-05-10)
 
 - Updated peer dependencies to support Angular versions greater than `4.3.6`. [#13](https://github.com/blackbaud/skyux-lib-clipboard/pull/13)

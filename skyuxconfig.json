@@ -3,12 +3,14 @@
   "name": "skyux-lib-clipboard",
   "mode": "easy",
   "compileMode": "aot",
-  "skyuxModules": [
-    "SkyErrorModule"
-  ],
   "plugins": [
     "@skyux-sdk/builder-plugin-skyux"
   ],
+  "librarySettings": {
+    "whitelistedNonPeerDependencies": [
+      "clipboard-polyfill"
+    ]
+  },
   "appSettings": {
     "myLibrary": {
       "name": "Skyux Lib Clipboard"

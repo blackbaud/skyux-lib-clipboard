@@ -18,13 +18,16 @@
   },
   "app": {
     "title": "Sky Clipboard",
-    "styles": [
-      "@skyux/theme/css/sky.css"
-    ]
+    "styles": []
   },
   "testSettings": {
     "unit": {
       "browserSet": "paranoid"
+    }
+  },
+  "host": {
+    "frameOptions": {
+      "none": true
     }
   }
 }

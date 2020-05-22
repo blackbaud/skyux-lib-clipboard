@@ -17,7 +17,7 @@
     "@skyux/i18n": "^4.0.0"
   },
   "dependencies": {
-    "clipboard-polyfill": "2.8.6"
+    "clipboard-polyfill": "2.7.0"
   },
   "devDependencies": {
     "@angular/animations": "9.1.9",

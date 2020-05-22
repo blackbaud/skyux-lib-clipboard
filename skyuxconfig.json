@@ -3,12 +3,14 @@
   "name": "skyux-lib-clipboard",
   "mode": "easy",
   "compileMode": "aot",
-  "skyuxModules": [
-    "SkyErrorModule"
-  ],
   "plugins": [
     "@skyux-sdk/builder-plugin-skyux"
   ],
+  "librarySettings": {
+    "whitelistedNonPeerDependencies": [
+      "clipboard-polyfill"
+    ]
+  },
   "appSettings": {
     "myLibrary": {
       "name": "Skyux Lib Clipboard"
@@ -16,13 +18,16 @@
   },
   "app": {
     "title": "Sky Clipboard",
-    "styles": [
-      "@skyux/theme/css/sky.css"
-    ]
+    "styles": []
   },
   "testSettings": {
     "unit": {
       "browserSet": "paranoid"
+    }
+  },
+  "host": {
+    "frameOptions": {
+      "none": true
     }
   }
 }

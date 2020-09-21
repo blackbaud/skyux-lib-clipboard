@@ -29,7 +29,8 @@
   },
   "host": {
     "frameOptions": {
-      "none": true
+      "none": true,
+      "url": "https://developer.blackbaud.com"
     }
   },
   "omnibar": {},

@@ -12,6 +12,9 @@ import {
   SkyCopyToClipboardService
 } from './clipboard.service';
 
+/**
+ * Creates a button that copies content to the clipboard.
+ */
 @Component({
   selector: 'sky-copy-to-clipboard',
   templateUrl: './clipboard.component.html'

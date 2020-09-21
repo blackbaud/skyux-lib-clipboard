@@ -17,12 +17,25 @@ import {
   templateUrl: './clipboard.component.html'
 })
 export class SkyCopyToClipboardComponent {
+  /**
+   * Specifies the content to copy. This property binds data, so you must use brackets to
+   * evaluate the template expression: `[copyTarget]`. Without the brackets, Angular treats
+   * the value as a string and initializes the target property with the string value instead
+   * of evaluating the data value.
+   * @required
+   */
   @Input()
   public copyTarget: HTMLElement;
 
+  /**
+   * Specifies a label for the copy to clipboard button.
+   */
   @Input()
   public buttonText: string;
 
+  /**
+   * Specifies a label to display on the copy to clipboard button after users select it.
+   */
   @Input()
   public buttonClickedText: string;
 

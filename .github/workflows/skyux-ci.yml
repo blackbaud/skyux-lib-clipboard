@@ -5,9 +5,11 @@ on:
   pull_request:
     branches:
       - master
+      - 5.0.0-next
   push:
     branches:
       - master
+      - 5.0.0-next
     tags:
       - '*.*.*'
 

@@ -1,4 +1,5 @@
-<div skyClipboard clipboardTrigger="copyButton">
+<div id="test-aria-labelledby">TEST-LABELLEDBY</div>
+<div id="test-copy-target" #copyTarget>
   Copy Content
 </div>
-<button id="copyButton">COPY</button>
+<sky-copy-to-clipboard buttonText="COPY" buttonClickedText="COPIED" [ariaLabelledBy]="ariaLabelledBy" [ariaLabel]="ariaLabel" [copyTarget]="copyTarget" [title]="title">
